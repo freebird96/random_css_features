@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    position: absolute;
+    display: block;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 2px;
+    top: 50%;
+    overflow: hidden;
+
+}
+
+a::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: -100%;
+    background: black;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+a:hover::before {
+    left: 100%;
+}
+
+a span:nth-child(odd){
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    transition: 0.5s ease-in-out;
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: 50%;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: 50%;
+}
+
+a:hover span:nth-child(1){
+    top: 0;
+    left: -50%;
+}
+
+a:hover span:nth-child(3){
+    bottom: 0;
+    right: -50%;
+}
+
+a span:nth-child(even){
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: black;
+    transition: 0.5s ease-in-out;
+}
+
+a span:nth-child(2){
+    top: 50%;
+    left: 0;
+}
+
+a span:nth-child(4){
+    bottom: 50%;
+    right: 0;
+}
+
+a:hover span:nth-child(2){
+    top: -50%;
+    left: 0;
+}
+
+a:hover span:nth-child(4){
+    bottom: -50%;
+    right: 0;
+}
+
+
+
+
