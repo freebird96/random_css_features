@@ -1,0 +1,161 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;    
+}
+
+
+
+/*-------------------------------------------
+HEADER and NAV Bar
+--------------------------------------------*/
+header{
+    display: flex;
+    position: fixed;
+    padding: 0 20px;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+.header-img{
+    width: 200px;
+    height: auto;
+    
+}
+
+/*-------------------------------------------
+Section HERO
+--------------------------------------------*/
+.btn {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form #email{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+form #submit{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin:15px 0;
+    background-color: #f1c40f;
+    border: 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+
+/*-------------------------------------------
+Section Features and div Container
+--------------------------------------------*/
+
+.grid{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icon{   
+    display: flex;
+    color: darkorange;
+    height: 12px;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.desc {   
+    display: flex;
+    padding: 5px;
+    height: 125px;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
