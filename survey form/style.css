@@ -1,0 +1,60 @@
+body{
+    background-color:#a9d7d1;
+    font-family: Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+h1{
+    text-align: center;
+}
+#description{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.white-section{
+    background-color: white;
+    margin: 0 15% 0 15%;
+    border-radius: 5px;
+}
+
+form{
+    display: block;
+    margin-top: 0;
+}
+#form-outer{
+    max-width: 900px;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.rowtab{
+    display: block;
+}
+.label{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.righttab{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+    
+}
+
+.input-field {
+    height: 20px;
+    width:280px;
+    padding: 5px;
+    margin: 10px;
+}
+.dropdown{
+    height: 30px;
+}
